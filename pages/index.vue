@@ -3,5 +3,10 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    // Not working with IE!!!
+    console.log('Hello World');
+  }
+}
 </script>
